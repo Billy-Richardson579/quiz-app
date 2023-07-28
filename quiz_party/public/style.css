@@ -1,0 +1,67 @@
+.cocktail-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  fill: #FFD5FF;
+  margin-right: 5px;
+  filter: drop-shadow(1px 1px 4px #FFD5FF);
+}
+
+body {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.headerneon {
+  font-family: 'Monoton', cursive;
+  font-size: 130px;
+  color: #FFD5FF;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-shadow: 1px 0px 4px #FFD5FF, 2px 0px 4px #FFD5FF, 3px 0px 4px #FFD5FF, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA, 40px 0vw 200px #D42CCA;
+}
+
+.flicker-slow {
+  animation: flicker 3s linear infinite;
+}
+
+.flicker-fast {
+  animation: flicker 1s linear infinite;
+}
+
+@keyframes flicker {
+  0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+    opacity: .99;
+  }
+  20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+    opacity: 0.4;
+  }
+}
+
+main {
+  color: #e6ffcc;
+  padding: 10px;
+  font-weight: bold;
+  text-shadow: 1px 0px 4px #e6ffcc, 2px 0px 4px #e6ffcc, 3px 0px 4px #e6ffcc, 2px 0px 3px #80ff00, 2px 3px 15px #80ff00, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #80ff00, 40px 0vw 200px #80ff00;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+Body {
+  color: #e6ffcc;
+  padding: 10px;
+  font-weight: bold;
+  text-shadow: 1px 0px 4px #e6ffcc, 2px 0px 4px #e6ffcc, 3px 0px 4px #e6ffcc, 2px 0px 3px #80ff00, 2px 3px 15px #80ff00, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #80ff00, 40px 0vw 200px #80ff00;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
