@@ -6,7 +6,15 @@
   margin-right: 5px;
   filter: drop-shadow(1px 1px 4px #FFD5FF);
 }
-
+.title{
+  font-size: 20px;
+}
+h1 {
+  font-size: 40px;
+}
+#date{  
+  font-size: 20px;
+}
 body {
   background: #000;
   display: flex;
@@ -64,4 +72,12 @@ Body {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
+}
+.image{
+  max-width: 40px;
+}
+.links {
+  color: hotpink;
+  text-shadow: 1px 0px 4px hotpink, 2px 0px 4px hotpink, 3px 0px 4px pink, 2px 0px 3px pink, 2px 3px 15px pink, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px lightpink, 40px 0vw 200px pink;
+
 }
